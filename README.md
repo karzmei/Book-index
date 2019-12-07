@@ -2,7 +2,7 @@
 Given a (long) text, presumably a book text, we want to produce a back-of-the-book index for it, i.e. give a list of words that readers might search for in the text.
 In fact I want to deal specifically with scientific texts (initially written in .tex (latex)), but except for a proper preprocessing, currently it doesn't make a difference.
 
-Preprocessing or NLP concepts used:
+Preprocessing and NLP concepts used:
 - Preprocessing - erasing comments and formulas (mainly using regex).
 - Named Entity Recognizer (NER) (an existing one, from spacy).
 
