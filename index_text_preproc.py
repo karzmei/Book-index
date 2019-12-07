@@ -73,19 +73,8 @@ def remove_punct(text):
 	regex = re.compile('[%s]' % re.escape(string.punctuation))
 	# first replacing punctuation signs with a space, to prevent words from sticking together (eg if the text doesn't spacing: "to be or not to be-that is the question")
 	clean = regex.sub(' ', text)
-	# then get read of extra spaces:(not including \n (newline) or \t (tab) or \s (space) manually generated, but including such     spaces.)
+	# then get rid of extra spaces:(not including \n (newline) or \t (tab) or \s (space) manually generated, but including such     spaces.)
 	clean = re.sub(' +', ' ', clean)
-	return clean
-
-def remove_stopwords_list(w_list):
-	'''
-	Removing (english) stop words from a list a words (w_list), returning a "cleaned" list
-	'''
-	sw = stopwords.words('english') # nltk list of stopwords
-	clean = [] # stop words will be ommited:
-	for token in w_list:
-		if token not in sw:
-			clean.append(token)
 	return clean
 
 
