@@ -1,5 +1,5 @@
 # Book-index
-Given a (long) text, such as a book text, we want to produce a back-of-the-book index for it, i.e. give a list of words that readers might search for in the text.
+Given a (long) text, such as a book text, we want to produce a back-of-the-book index for it, i.e., provide a list of words that readers might search for in the text.
 In fact I want to deal specifically with scientific texts (initially written in .tex (latex)), but except for a proper preprocessing, currently it doesn't make a difference.
 
 Preprocessing and NLP concepts used:
