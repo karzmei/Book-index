@@ -75,6 +75,7 @@ def remove_punct(text):
 	clean = regex.sub(' ', text)
 	# then get rid of extra spaces:(not including \n (newline) or \t (tab) or \s (space) manually generated, but including such     spaces.)
 	clean = re.sub(' +', ' ', clean)
+	# this can be also done using text.strip()
 	return clean
 
 

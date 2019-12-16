@@ -15,10 +15,11 @@ import spacy
 # inner import
 import index_text_preproc as preproc
 
-# some constants
-wantedNE = ("ORG","PERSON")
+# some COSTANTS
+wantedNE = ("ORG","PERSON", "NORP") # relevant Named Entities types
+wantedPOS = ("NOUN", "PROPN", "ADJ") # relevant Part-Of-Speech types
 tresh = 0.2
-
+#####################################################################################################
 
 def clean_text(text):
 	'''
@@ -60,12 +61,9 @@ def remove_stopwords_list(w_list):
 	'''
 	Removing (english) stop words from a list a words (w_list), returning a "cleaned" list
 	'''
-	sw = stopwords.words('english') # nltk list of stopwords
-	for token in w_list:
-		if token in sw:
-			w_list.remove(token)
-	return w_list
-# TODO: think how to use it and adjust accordingly
+	sw = stopwords.words('english') # nltk list of stopwords (spacy also has one, but i prefer nltk for now)
+	cleaned = [token for token in w_list if (token not in sw)]
+	return cleaned
 
 def named_ent(text):
 	'''
@@ -76,10 +74,26 @@ def named_ent(text):
 	NE = set()
 	for ent in doc.ents:
 		if ent.label_ in wantedNE: # wanted Named Entities
-			NE.add(ent.text)
+			# BUG: Spacy tokenizer does not separate \n, I get "Alice\n" and alike. So need to delete manually, till it's resolved:
+			NE.add(ent.text.replace('\n', ''))
+#	NE = (ent.text for ent in doc.ents if ent.lable_ in wantedNE) # shorter
 	return NE
-	# BUG: Alice and Alice\n are considered different. Why Alice\n even appears ???! #
 
+
+def pos_greedy(text):
+	'''
+	Removes from w_list tokens that are not in the wanted list of Part-of-Speech types. 
+	Greedy: enough for a token to be once in the wanted list to stay in the list.
+	We assume that w_list contains words from the text only, although the function will run anyway
+	(the assumption is because w_list might not be all words, but part of them, after some preprocessing, eg erasing stopwords)
+	'''
+	nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"]) #  use the pos tagging here
+	doc = nlp(text)
+	candidates = set()
+	for token in doc:
+		if token.pos_ in wantedPOS:
+			candidates.add(token.text)
+	return candidates
 
 ######################################################################################################################################
 
@@ -94,10 +108,9 @@ if __name__ == "__main__": #the following lines won't be executed when this file
 	print(named_ent(mytext))
 
 	tf = term_freq(mytext) # a dictionary of words and their tf
+	non_stop_list = remove_stopwords_list(tf.keys()) # removing stop-words:
+	print(non_stop_list)
 
 	tf_sorted = sorted(tf.items(), key = lambda kv: kv[1], reverse = True) # sorting tf by frequency in descending order (output is a list of pairs (word, tf))
 
-	max_tf = tf_sorted[0][1] # first element value
-	min_tf = tf_sorted[-1][1] # last element value
-	tf_useful = [(token, val) for (token,val) in tf_sorted if (min_tf*(1+tresh) <= val <= max_tf*(1-tresh))] # relevant part of the list
-
+	print(pos_greedy(mytext))
