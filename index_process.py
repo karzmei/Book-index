@@ -97,7 +97,7 @@ def pos_greedy(text):
 
 ######################################################################################################################################
 
-if __name__ == "__main__": #the following lines won't be executed when this file is imported by some other "main" file
+if __name__ == "__main__":
 	text_file = open("aliceshort.txt")
 	mytext = text_file.read()
 	text_file.seek(0) #back to beginning before going over it
