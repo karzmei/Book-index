@@ -9,7 +9,7 @@ The current idea combines several basic NLP concepts. First we search for candid
 - (V) Add all Named Entities (let's say they should be included in the index in any case).
 - (V) Remove any stop-words from the candidates list obtained in the process above. Just in case.
 - (V) Then we can "rate" all candidates using tf-idf, where the idf is with respect to some corpus of texts in the same area as out main text (book).
-- Finally, set up some threshold to take only candidates above this threshold (to be fixed manually for now).
+- Set up some threshold to take only candidates above this threshold (to be fixed manually for now).
 - Analysis: check how good the obtained list of words matches the actual existing index (precision etc.).
 - Post-analysis: See if the result could be improved - maybe by taking *not* the classical tf-idf, and by adding "adjective+noun" pairs.
 
