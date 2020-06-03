@@ -2,8 +2,9 @@
 Given a (long) text, such as a book text, we want to produce a back-of-the-book index for it, i.e., provide a list of words that readers might search for in the text. This job, when done seriously, is usually done by (at least somewhat-) experts in the field of the book topic, who manually (or half-manually, as there's software that they use that suggest words) create a suitable list of words, sometimes thinking even of "What words might the reader search for that will lead them to this paragraph I'm reading now?". So the question is, can this be replaced by a computer?
 [ONGOING]
 
-How do I plan to find the index? (V marks what's already implemented - although maybe not yet used..)
-The current idea combines several basic NLP concepts. First we search for candidates in the book text and then rate them:
+How do I plan to find the index? The current idea combines several basic NLP concepts. First we search for candidates in the book text and then rate them:
+(V marks what's already implemented - BUT not all of it is uploaded, because of windows failure :/ ...)
+
 - (V) Find all nouns.
 - Find pairs of adjective + noun (or maybe several adjectives + noun). That's for later! :)
 - (V) Add all Named Entities (let's say they should be included in the index in any case).
