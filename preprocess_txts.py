@@ -1,14 +1,31 @@
+# proprecessing functions (cleaning text/index etc.)
+
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import re, string #regular expressions manipulations (string manipulations), be strong :(
+import re, string
 
-import timeit # to measure running time while testing
-from timeit import Timer
 
-import nltk
-from nltk.tokenize import sent_tokenize
-from nltk.corpus import stopwords
+def remove_punct(text):
+	'''
+	Removes all punctuation from a text (string) and returns the "cleaned" text
+	WARNING: not adviced to do remove_formulas or remove_comments after removing punctuation
+	NOTE: if there's "hyper-active" is splits into two words.
+	'''
+	regex = re.compile('[%s]' % re.escape(string.punctuation))
+	# first replacing punctuation signs with a space, to prevent words from sticking together (eg if the text doesn't spacing: "to be or not to be-that is the question")
+	clean = regex.sub(' ', text)
+	# then get rid of extra spaces:(not including \n (newline) or \t (tab) or \s (space) manually generated, but including such     spaces.)
+	clean = re.sub(' +', ' ', clean)
+	# this can be also done using text.strip()
+	return clean
+
+
+def text2list(text):
+	""" Given a text, returns a list of all the words in the text, sequentially, with repetition."""
+	clean_txt = remove_punct(text)
+	w_list = clean_txt.split()
+	return w_list
+
+# clean_index
 
 def remove_comments(text):
 	'''
@@ -65,27 +82,7 @@ def remove_formulas(text):
 
 	return cleaned
 
-def remove_punct(text):
-	'''
-	removes all punctuation from a text (string) and returns the "cleaned" text
-	WARNING: not adviced to do remove_formulas or remove_comments after removing punctuation
-	'''
-	regex = re.compile('[%s]' % re.escape(string.punctuation))
-	# first replacing punctuation signs with a space, to prevent words from sticking together (eg if the text doesn't spacing: "to be or not to be-that is the question")
-	clean = regex.sub(' ', text)
-	# then get rid of extra spaces:(not including \n (newline) or \t (tab) or \s (space) manually generated, but including such     spaces.)
-	clean = re.sub(' +', ' ', clean)
-	# this can be also done using text.strip()
-	return clean
-
-
-#######################################################################################################################################################
-# TESTING #
-if __name__ == "__main__": #the following lines won't be executed when this file is imported by some other "main" file
-
-	text_file = open("rigid_flex.txt")
-	mytext = text_file.read()
-	text_file.seek(0) #back to beginning before going over it
-
-	t = Timer(lambda: remove_formulas(mytext))
-	print(t.timeit(number=1))
+if __name__ == '__main__':
+	text = "This is Alice who visited Wonderland, how is she connected to Bob?"
+	print(remove_punct(text))
+	print(text2list(text))
