@@ -1,5 +1,6 @@
 # Book-index
-Given a (long) text, such as a book text, we want to produce a back-of-the-book index for it, i.e., provide a list of words that readers might search for in the text. This job, when done seriously, is usually done by (at least somewhat-) experts in the field of the book topic, who manually (or half-manually, as there's software that they use that suggest words) create a suitable list of words, sometimes thinking even of "What words might the reader search for that will lead them to this paragraph I'm reading now?". So the question is, can this be replaced by a computer?
+Given a (long) text, such as a book text, we want to produce a back-of-the-book index for it, i.e., provide a list of words that readers might search for in the text. This job, when done seriously, is usually done by (at least somewhat-) experts in the field of the book topic, who manually (or half-manually, noadays there is some software can can be used) create a suitable list of words. 
+Can this be done automatically? Here I make an attempt to produce a suitable list automatically, trying to replace "expert knowledge" by a corpus of texts from the same field as the book in question.
 [ONGOING]
 
 How do I plan to find the index? The current idea combines several basic NLP concepts. First we search for candidates in the book text and then rate them:
