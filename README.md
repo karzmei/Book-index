@@ -4,11 +4,11 @@ Can this be done automatically? Here I make an attempt to produce a suitable lis
 [ONGOING]
 
 How do I plan to find the index? The current idea combines several basic NLP concepts. First we search for candidates in the book text and then rate them:
-(V marks what's already implemented - BUT not all of it is uploaded, because of windows failure :/ ...)
+(V marks what's already implemented)
 
 - (V) Find all nouns.
 - Find pairs of adjective + noun (or maybe several adjectives + noun). That's for later! :)
-- (V) Add all Named Entities (let's say they should be included in the index in any case).
+- (V, but not yet used) Add all Named Entities (let's say they should be included in the index in any case).
 - (V) Remove any stop-words from the candidates list obtained in the process above. Just in case.
 - (V) Then we can "rate" all candidates using tf-idf, where the idf is with respect to some corpus of texts in the same area as out main text (book).
 - Set up some threshold to take only candidates above this threshold (to be fixed manually for now).
