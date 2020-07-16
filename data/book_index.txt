@@ -1,0 +1,734 @@
+Index
+ACS, see alternate convex search
+Adaptive hypothesis test, 157
+Adaptive lasso, 86
+Additive
+matrix decomposition, 190–194
+model, 69–76
+ADMM, 121
+applied to lasso, 122
+Aliased, 60
+Alternate convex search, 126
+Alternating
+algorithm, 205
+direction method of multipliers
+see ADMM, 121
+minimization, 124
+partial optimum, 126
+regression, 237
+subspace algorithm, 126
+Analysis of deviance, 33
+ANOVA, 68
+Applications
+20-newsgroups corpus, 32
+air pollution, 71
+arterial pressure, 271
+comparative genomic hybridization
+(CGH), 76
+crime, 10
+diabetes data, 140, 149, 159
+face silhouettes, 226
+handwritten digits, 37, 209
+helicopter data, 184, 193
+image processing, 271
+lymphoma, 42, 219
+mammal dentition, 232
+natural images, 271
+Netflix challenge, 170, 187, 215
+splice-site detection, 60
+video denoising, 184
+voting, 244, 257
+Augmented SPCA algorithm, 213
+Autoencoder, 236
+sparse, 210, 236
+Auxiliary variables, 79
+Average linkage, 227
+Backfitting, 69–72
+Base class, 36
+Baseline hazard, 43
+Basic inequality, 298, 313
+Basis functions, 71
+Haar, 270
+multiscale, 271
+orthogonal, 269
+overcomplete, 274
+Basis pursuit, 23, 276
+Bayes
+decision boundary, 217
+rule, 217
+Bayesian, 23
+lasso, 139, 144
+methods, 22, 139
+Bellkor’s Pragmatic Chaos, 172
+Benjamini–Hochberg (BH) procedure,
+163
+Best-additive approximation, 69
+Best-subset selection, 22
+Bet-on-sparsity principle, 24
+Bias term (intercept), 7
+Bias-variance tradeoff, 7
+Biclustering , 190
+Biconvex
+function, 124, 189, 207
+set, 125
+Biconvexity, 124
+343
+344 INDEX
+Binomial, 29
+Binomial log-likelihood, 29
+Biological pathway, 60, 64
+Block separable, 63
+Block-wise coordinate descent, 63, 65
+Bonferroni adjustment, 160
+Bootstrap, 12
+methods, 142–147
+nonparametric, 143
+parametric, 146
+Bottleneck, 211
+Canonical correlation analysis, 214,
+237
+low-rank, 238
+sparse, 213–215, 238
+via optimal scoring, 237
+Canonical variates
+sparse, 201
+Cardinality constraint, 192
+Categorical predictor, 19, 68
+Cauchy-Schwarz inequality, 235
+CCA, see Canonical correlation analysis
+Chi-squared statistic, 148
+Chronic lymphocytic lymphoma, 219
+Cinematch score, 173
+Clique-based factorization, 243
+Clustering, 227
+convex, 231
+hierarchical , 227
+sparse, 201, 227–232
+Coefficient paths, 33
+Coherence of a matrix, 177
+Collaborative filtering, 169
+Combinatorial optimization, 22
+Compatibility function, 242
+Complementary slackness, 98
+Complete linkage, 227
+Composite gradient, 63
+Compressed sensing, 4, 278–288
+`2-error bound, 296
+noisy case, 296
+Concentration matrix, 246, 261
+Conditional
+independence, 243
+inference, 254
+likelihood, 254
+Cone constraint
+lasso analysis, 294
+Constrained lasso, 276, 289
+`2-bound, 295
+Constraint region, 12
+Contrasts, 60
+Convergence rate, 76
+Convex
+relaxation, 23
+clustering, 231
+constrained program, 95
+function, 95
+strongly, 106
+matrix approximation, 168
+matrix completion
+noisy setting, 178
+relaxation, 248
+relaxation of matrix rank, 174
+set, 95
+spectral regularization, 173
+Convexity, 14
+Coordinate descent, 14–17, 35, 40, 109
+blockwise, 63
+convergence guarantee, 111
+failure of, 110
+regularity condition, 112
+Correlated
+features, 55
+genes, 60
+Corrupted matrix entries, 192
+COSSO, 72
+Coupon collector problem, 177, 198
+Covariance graph, 263
+Covariance model
+spiked, 212
+Covariance test, 147–150
+statistic, 149
+Covering set, 286
+Cox proportional-hazards model, 31,
+42–43
+Cross-validation, 13–14, 34, 43, 142,
+144
+INDEX 345
+curve, 144
+tenfold, 34
+Cubic smoothing spline, 72–74
+Cumulative distribution function, 152
+Curse of dimensionality, 69
+Cut set, 243
+Cyclical coordinate descent, 15
+Debiased Lasso, 158–160
+Debiasing, 12
+Decomposable regularizer, 311
+Deep learning, 210
+Degrees of freedom, 17–19
+Deviance, 33, 51
+Diffuse large B-cell lymphoma, 219
+Directed acyclic graphs, 241
+Discriminant analysis
+Fisher’s, 221
+flexible, 222
+penalized, 222
+Document classification, 31, 32
+Double exponential distribution, 140
+Dual-path algorithm, 79–80
+Dummy variables, 58, 60
+Dynamic programming, 80–81
+Effective degrees of freedom, see degrees
+of freedom
+Effective number of parameters, see
+degrees of freedom
+Eigenvector computation, 127
+Elastic net, 51, 55–58
+ball, 57
+coefficient path, 57
+`1 ball, 57
+`1 exactness, 280–283, 287
+equivalent to restricted nullspace,
+281
+sufficiency of pairwise incoherence,
+282
+sufficiency of RIP, 283
+`1 penalty, 30
+`1-regularized linear SVM, 31, 47
+`1-regularized logistic regression, 50
+`q penalty, 22
+`q “ball”, 290, 313
+best k-term approximation, 313
+weak and strong, 312
+`2 ball, 57
+EM algorithm, 124
+Equivariant, 36
+Expectation-maximization algorithm,
+see EM algorithm
+Exponential
+family, 31, 246
+limiting distribution, 149, 150
+Factor analysis, 191
+False discovery rate, 149
+Fantope projection, 210
+FDR, see False discovery rate
+Feature vector, 7
+First-order optimality conditions, 96
+Fisher’s
+between-to-within variance criterion,
+221
+linear discriminant analysis, 221
+Flexible discriminant analysis, 222
+Follicular lymphoma, 219
+Forward stepwise
+methods, 86
+regression, 118, 147, 158
+ForwardStop rule, 163
+Fraction of deviance explained, 33, 34
+Frobenius norm, 167
+Fused lasso, 55, 76–81, 189
+dual path algorithm, 79–80
+dynamic programming, 80–81
+signal approximator, 76
+Gamma distribution, 141
+Garrote, see nonnegative garrote
+Gene-expression arrays, 60
+General matrix regression framework,
+185
+General position, 19
+Generalization, 13
+Generalized linear models, 29–54, 115
+Generalized penalties, 55–93
+Genome-wide association studies, 32
+346 INDEX
+Geometric convergence, 107, 177
+Gibbs sampler, 244
+glmnet, 33, 35, 50–52
+Gradient descent, 100
+accelerated, 107
+momentum, 108
+projected, 102
+proximal method, 103, 108
+steepest, 101
+unconstrained, 101
+Gram matrix, 73
+Graph clique, 241
+maximal, 242
+Graphical lasso, 248, 250
+asymptotics, 252
+Graphical model, 241–267
+selection, 241
+block-diagonal structure, 251
+factorization property, 242–243
+Gaussian, 245–246
+graph selection, 254–260
+hidden variables, 261
+Markov property, 243
+maximum likelihood, 247
+mixed (continuous and discrete),
+259
+neighborhood-based likelihood,
+255–258
+pseudo-likelihood, 259–260
+Group lasso, 55, 58–68, 260
+ball, 64
+overlap, 55, 65–68
+sparse, 64–65
+Grouped response, 37
+Groups of variables, 55
+Hammersley–Clifford theorem, 261
+Hard sparsity, 290
+Hard thresholding, 22
+Hard-impute, 173
+algorithm, 176
+Hazard function, 31, 43
+Hierarchical clustering, 227
+sparse, 228
+Hierarchy, 67, 68
+Hilbert-space norm, 72
+Hinge loss, 31
+Homotopy methods, 17
+Huber loss function, 194
+Human DNA, 61
+Hyperparameters, 141
+Implicit penalty, 66
+Incoherence, 178
+maximal, 179
+Indicator response, 37
+Inference for lasso, 154
+Inner products, 151
+Interaction models, 67–68
+IRLS, see iteratively reweighted leastsquares
+Irrepresentability, 302
+Ising model, 244
+Isotonic regression, 83
+Iterative Lanczos methods, 176
+Iteratively reweighted least-squares,
+40
+Jensen’s algorithm, 124
+Johnson–Lindenstrauss approximation,
+277, 286
+sparse Boolean vectors, 277
+K-means clustering
+sparse, 230
+Karush–Kuhn–Tucker conditions, 9,
+97, 165
+Kernel Gram matrix, 75
+Kernel trick, 34, 46
+KKT conditions, see Karush–Kuhn–
+Tucker conditions
+Knots, 71, 72, 82
+Kullback–Leibler divergence, 41
+Lagrange
+function, 97
+multipliers, 97
+optimality conditions, 97
+Lagrange dual, 41
+Lagrangian, 70
+duality, 9
+INDEX 347
+form, 9
+Lagrangian lasso, 289
+`2-bound, 295
+`2-bound for weak sparsity, 299,
+313
+`1-bounds, 303
+fast rate for prediction error, 300
+slow rate for prediction error, 300
+variable selection guarantee, 302
+Lanczos iteration, 176
+Laplacian
+distribution, 23, 140
+prior, 139
+Lasso, 7–12
+fixed- inference, 154
+necessary and sufficient conditions
+for solution, 9
+uniqueness, 19
+Least angle regression, 118–121, 147
+Lifted problem, 79
+Line search
+Armijo rule, 102
+limited minimization, 102
+Linear
+logistic regression, 29
+discriminant analysis
+sparse, 201, 217–227
+via optimal scoring, 225
+model, 7–8
+Linear convergence, 107
+Link function, 29
+Linkage measure for clustering, 227
+Loading vectors, 204
+Local minima, 16
+Log-determinant program, 248
+Log-linear model, 30, 40–42
+Log-odds ratio, see logistic regression
+Logistic regression, 29, 31–36, 115,
+217
+coefficient path, 49
+logit, 29
+multiclass, 36
+with separable data, 49–50
+Loss
+parameter estimation, 290
+prediction error, 289
+variable selection, 290
+Low-rank CCA, 238
+Lower bounds, 51
+Majorization, 123
+Majorization-minimization algorithm,
+see MM algorithm
+Majorizing function, 123
+Margin, 31, 32, 46–48
+Markov chain Monte Carlo, 140
+Markov property, 241, 243
+Matrix Completion
+theory, 177
+Matrix completion, 167, 169–183
+nuclear norm, 174
+robust, 193
+Matrix decomposition
+additive, 190
+Matrix decompositions, 167–199
+Matrix lasso, 186
+Matrix trace, 205
+Maximal variance, 202
+sparsity, 204
+Maximal-margin classifier, 48–49
+Maximum entropy, 53
+Maximum likelihood, 30
+Maximum Margin Matrix Factorization,
+181
+Maximum margin matrix factorization,
+168
+MCMC, see Markov chain Monte
+Carlo
+MDL, see minimum description length
+Mean-squared-error consistency, 20
+Metric entropy, 286
+Mill’s ratio, 164
+Minimax-optimal, 76
+Minimum description length, 226
+Minorization-majorization algorithm,
+see MM algorithm
+Minorization-maximization algorithm,
+see MM algorithm, see MM
+algorithm
+Missing data, 169–183
+348 INDEX
+Mixed models, 259
+MM algorithm, 123
+EM as example, 124
+proximal gradient as example,
+124
+MMMF, 181
+relationship to spectral regularization,
+182
+Model selection, 8–14
+Monotone, 83
+fusion, 79
+Movie ratings, 170
+Multiclass logistic regression, 36–40
+Multilevel factors, 60
+Multinomial, 30
+distribution, 36
+grouped lasso, 39–40
+regression, 54
+Multitask learning, 51, 61, 184
+Multivariate
+methods, 201–239
+regression, 61, 184
+Multivariate regression, 194
+Mutual incoherence, 302
+random designs, 314
+Naive Bayes classifier, 218, 239
+Nearest shrunken centroids, 218, 239
+Nearly-isotonic regression, 83–84
+Neighborhood
+based likelihood, 254
+penalty, 77
+set, 254
+Nesterov’s method, 107–109, 176, 197
+Netflix data, 176
+Newton’s method, 101, 116
+Newton–Raphson algorithm, 101
+Node potentials, 259
+Noisy subspace’ model, 191
+Nonconvex penalties, 84–86
+Nonnegative
+garrote, 20, 86
+lasso, 74
+Nonparametric
+bootstrap, 146
+regression, 69
+Nuclear norm, 174
+as an SDP, 197
+subgradient, 197
+Null deviance, 51
+Null hypothesis
+complete, 157
+incremental, 157
+Offset, 40, 51
+One versus all, 36
+One versus one, 36
+One-standard-error rule, 13, 144
+Optimal scoring, 225, 237
+Optimal separating hyperplane, 49
+Optimization, 95
+Order statistics, 273
+Orthogonal
+bases, 17
+features, 63
+OvA, see one versus all
+OvO, see one versus one
+Pairwise incoherence, 287
+Pairwise plots, 144
+Pairwise-Markov model, 245
+PAM package, 219
+Parameter estimation loss, 290
+classical linear model, 296
+Parametric bootstrap, 146
+Partial likelihood, 43
+Partial optimum, 126
+Partial regression coefficient, 156
+Partial residual, 65, 69
+Path algorithm, 77, 118–121
+Pathwise coordinate descent, 17, 249
+PCA, 169
+robust, 192
+PDW method
+see primal dual witness method,
+305
+Penalized discriminant analysis, 222
+Penalized Fisher’s discriminant, 239
+Penalized matrix decomposition, 187–
+190, 201
+INDEX 349
+multifactor, 190
+Penalized optimal scoring, 239
+Poisson
+log-likelihood, 30
+model, 40–42
+Polyhedral constraint region, 188
+Polyhedral lemma, 151, 152
+Pool adjacent violators algorithm, 83
+PoSI method, 160
+Post-selection inference, 147–158
+Posterior
+distribution, 22, 139, 140
+mode, 140
+Power method, 127, 190
+Precision matrix, 246, 247
+Prediction error
+computational lower bounds, 300,
+312
+Prediction loss, 289
+Pretraining, 212
+Prevalidation, 42, 45
+Primal-dual witness method, 305
+Principal components, 169, 202–204
+higher ranks, 207
+nonlinear, 210
+robust, 192
+sparse, 201, 204–210
+Prior distribution, 139
+Probabilistic graphical model, 241
+Probe set, 173
+Procrustes problem, 209
+Projection, 71
+Prototypes, 231
+Proximal gradient descent
+momentum, 108
+nuclear norm, 105
+Proximal gradient method, 103
+`1-norm, 104
+as MM algorithm, 124
+lasso, 107
+Proximal map, 104
+Pseudo-likelihood, 254
+Quadratic program, 14
+Qualitative factors, 58
+Quantile-quantile plot, 148
+Random design matrix
+mutual incoherence, 314
+restricted eigenvalue, 314
+Random matrices, 283, 287
+Random projection, 276
+Rank-minimization problem, 170
+Rank-r SVD, 169
+Recommender systems, 169
+Reconstruction error, 203, 206, 234
+Recovery of matrix entries, 177
+Reduced-Rank Regression, 184
+Regression, 7
+multivariate, 194
+reduced rank, 184
+Regularization, 8
+Relaxed basis pursuit
+analysis of, 313
+program, 276
+Relaxed lasso, 12
+Relevance network, 263
+Reparametrization, 78
+Reproducing-kernel Hilbert space, 72,
+73
+Resampling, 142
+Residual sum of squares, 147
+Response variable, 7
+Restricted eigenvalues, 294
+random designs, 314
+Restricted isometry property, 283,
+287
+Restricted nullspace
+implied by pairwise incoherence,
+282
+implied by RIP, 283, 288
+property, 281
+Restricted strong convexity, 294, 314
+Ridge
+penalty, 57
+regression, 10, 34
+regularized logistic regression, 49
+Right censored, 42
+RIP, see restricted isometry property
+350 INDEX
+RKHS, see reproducing kernel Hilbert
+space
+Robust
+Huber loss, 194, 198
+matrix completion, 193
+PCA, 192, 193, 199
+Rug plot, 144
+Sample splitting, 148
+SCoTLASS
+criterion, 235
+procedure, 204
+Screening rules, 35, 127
+SDP, see semidefinite program, see
+semidefinite program
+Second-order cone, 75
+Selection event, 150
+Self-influence, 18
+Semidefinite program, 174, 205, 206
+Separability of penalty, 66, 77, 110
+Separable data, 49, 53
+Sequential control of FDR, 163
+Shrinkage, 149
+methods, 22
+Signal approximation and compressed
+sensing, 269
+Single linkage, 227
+Singular value decomposition, 169
+singular values, 169
+singular vector, 126
+singular vectors, 169
+sparse, 201
+Smoothing spline, 71–74
+Soft margin, 31
+Soft thresholding, 15, 189
+operator, 58, 205
+Soft-impute, 173, 176, 181
+algorithm, 175
+Spacing test, 156–157
+Sparse additive model, 69–76
+Sparse approximation
+best k-term, 273, 313
+orthogonal bases, 271
+overcomplete bases, 274
+Sparse backfitting, 70, 73
+Sparse canonical correlation analysis,
+238
+Sparse clustering, 227–232
+hierarchical, 228
+K-means, 230
+Sparse LDA, 222
+Sparse matrix approximation, 168
+Sparse plus low rank, 191, 261
+Sparse principal components
+higher ranks, 207
+theory, 212
+Sparsistency, 20, 301
+Sparsity, 12
+Spectral regularization, 175
+Spiked covariance model, 212
+Spikiness ratio, 179
+Spline, 72–74
+Squared hinge loss, 48
+Stability selection, 144
+Standardize, 8
+Statistical inference, 139–165
+Strictly convex, 57
+Strong convexity, 106, 292
+Fisher information, 293
+Hessian-based, 293
+Strong duality, 98
+Strong rules, 35, 130
+Subdifferential, 63, 99
+Subgradient, 15, 99, 305
+`1-norm, 100
+equations, 62, 64
+nuclear norm, 100
+Sublinear convergence, 106
+Subset selection, 23
+Summation constraint, 68, 88
+Support recovery, 290
+Support set, 47
+Support-vector machine, 31, 46–48
+Survival
+time, 42
+curves, 43
+models, 31
+SVD, see Singular value decomposition
+SVM, see support-vector machine
+INDEX 351
+Tail bounds
+2 variables, 286
+Gaussian variables, 309
+Theory, 289–314
+`2-error bound for lasso, 294
+basic inequality, 298, 312, 313
+general M-estimators, 310
+group lasso, 310
+minimax rates for sparse regression,
+296, 299, 312
+nuclear norm, 310
+prediction error bound for lasso,
+299
+primal-dual witness method, 305
+variable selection guarantee for
+lasso, 302
+Total-variation denoising, 77
+Trace norm, 174
+Trace regression framework, 185
+Training error, 34
+Trend filtering, 81–83
+Truncated normal distribution, 152
+Type I error, 148
+Upper bounds, 51
+Variable selection, 301
+irrepresentability condition, 302
+loss, 290
+mutual incoherence condition,
+302
+Varimax rotation, 236
+Vertex set, 241
+Video
+denoising, 193
+sequences, 194
+surveillance data, 193
+Warm starts, 36
+Wavelets, 17
+Weak sparsity, 290, 299, 312
+Wide data, 49
+Within-class covariance matrix, 218
+Within-group sparsity, 64

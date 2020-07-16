@@ -1,0 +1,464 @@
+Author Index
+Abneel, P. 116
+Agarwal, A. 176, 195
+Alizadeh, A. 42
+Alliney, S. 23
+Alon, N. 195
+Amini, A. A. 213, 232
+Anandkumar, A. 195
+Anderson, T. 261
+Antoniadis, A. 27
+Armitage, K. 42
+Bach, F. 87, 195, 233
+Banerjee, O. 248, 249, 262
+Baraniuk, R. G. 285
+Barlow, R. E. 83
+Bartholomew, D. 83
+Beck, A. 108
+Bengio, S. 212
+Bengio, Y. 212
+Benjamini, Y. 162
+Bennett, J. 170
+Bento, J. 263
+Berk, R. 160, 162
+Berthet, Q. 232
+Bertsekas, D. 131, 133
+Besag, J. 261, 263
+Beyene, J. 233
+Bickel, P. J. 262, 263, 311
+Bien, J. 68, 128, 130, 263
+Birnbaum, A. 213, 232
+Boldrick, J. 42
+Boser, B. 37, 52
+Botstein, D. 42
+Boyd, S. 32, 35, 81, 121, 131, 206,
+248, 262, 263
+Breiman, L. 20, 23, 225
+Bremner, J. M. 83
+Brown, L. 160, 162
+Brown, P. 42
+Bruce, A. 87
+Bruckstein, A. M. 285
+Bruinsma, T. 43
+Brunk, H. D. 83
+B¨uhlmann, P. 142, 250, 263, 311
+Buja, A. 160, 162, 218, 222, 225
+Bunea, F. 186, 311
+Burge, C. 60
+Butte, A. 263
+Byrd, J. 42
+Cand`es, E. 311
+Caramanis, C. 26, 195, 312
+Casella, G. 139, 161
+Chan, W. 42
+Chandrasekaran, V. 195, 260, 261,
+312
+Chaudhuri, S. 263
+Chen, K. 211, 233
+Chen, S. 23, 285
+Chen, Y. F. 52
+Cheng, J. 263
+Chi, E. C. 232
+Cho, J. 210
+Choi, Y. 161
+Chouldechova, A. 161, 163
+Chu, E. 121
+Chu, G. 219, 233
+Clemmensen, L. 225, 226, 233, 239
+Clifford, P. 261
+Cohen, A. 285
+337
+338 AUTHOR INDEX
+Corrado, G. 211, 233
+Courville, A. 212
+Cox, D. 261
+Dahmen, W. 285
+d’Aspremont, A. 205, 206, 210, 232,
+248, 249, 262
+Davenport, M. A. 285
+Davidson, K. R. 285
+Davis, R. E. 42
+De Leeuw, J. 127
+De Moor, B. 233
+Dean, J. 211, 233
+Denker, J. 37
+Devin, M. 211, 233
+DeVore, R. A. 285
+Dezeure, R. 158, 159, 162
+Dobra, A. 262
+Donoho, D. 23, 278, 285, 296
+Drton, M. 263
+Dubiner, M. 40
+Dudoit, S. 233
+Eckstein, J. 121
+Edwards, D. 261
+Efron, B. 45, 52, 142, 146, 147, 161
+Eisen, M. 42
+Ekici, A. 186
+El Ghaoui, L. 131, 205, 206, 210,
+232, 248, 249, 262
+El Karoui, N. 263
+Elad, M. 285
+Erdos, P. 177
+Erhan, D. 212
+Ersboll, B. 225, 226, 233, 239
+Fan, J. 84
+Fazel, M. 174, 195
+Feuer, A. 285
+Field, D. 211, 233, 285
+Fisher, M. E. 261
+Fithian, W. 161
+Freeman, W. T. 285
+Fridlyand, J. 233
+Friedman, J. 24, 36, 37, 43, 46, 48,
+50, 52, 58, 77, 79, 86, 87, 113, 128,
+130, 184, 217, 221, 225, 227, 230,
+248–251, 255, 262, 263
+Friedman, N. 261
+Fu, W. 131
+Fu, W. J. 311
+Fuchs, J. 23, 311
+Gannaz, I. 27
+Gao, H. 87
+Geman, D. 262
+Geman, S. 262
+Golub, G. 127, 169
+Golub, T. 263
+Gong, P. 127, 131, 132
+Gorinevsky, D. 81
+Gorski, J. 131
+Grabarnik, G. 23
+Gramacy, R. 141
+Grazier G’Sell, M. 161, 163
+Greenshtein, E. 20, 311
+Greig, D. M. 262
+Greiner, T. 42
+Greve, M. 42
+Grimmett, G. R. 261
+Gross, D. 178, 195
+Gu, C. 87
+Gu, I. Y. 192
+Guyon, I. 52
+Hammersley, J. M. 261
+Hans, C. 262
+Hart, A. A. M. 43
+Hastie, T. 18, 19, 24, 34, 36, 37, 43,
+46–50, 52, 56, 58, 67, 69, 71, 77,
+79, 86, 87, 113, 128, 130, 170, 175,
+176, 182, 184, 195, 206, 208,
+217–219, 221, 222, 225–228, 230,
+232, 233, 239, 248–251, 255,
+260–263, 266
+Henderson, D. 37
+Hero, A. 87
+Hochberg, Y. 162
+Hocking, T. 233
+Hoefling, H. 52, 77, 79, 83, 87, 257,
+260, 263
+339
+Horn, R. A. 265
+Howard, R. 37
+Hsu, D. 195
+Huang, J. 86, 190
+Huang, W. 192
+Hubbard, W. 37
+Hudsom, J. 42
+Hunter, D. R. 124, 131, 233
+Huo, X. 285
+Ihaka, R. 225
+Ising, E. 244, 262
+Jaakkola, T. 195
+Jackel, L. 37
+Jacob, L. 66, 67, 87
+Jain, P. 195
+Jalali, A. 312
+Javanmard, A. 158, 159, 162
+Jenatton, R. 87
+Jerrum, M. 261
+Johnson, C. R. 265
+Johnson, N. 81, 87
+Johnson, W. B. 285
+Johnstone, I. 23, 204, 212, 213, 232
+Jolliffe, I. T. 204, 232, 233
+Jones, B. 262
+Jordan, M. I. 86, 205, 206, 210, 232,
+261, 311, 312
+Joulin, A. 233
+Kaiser, H. 236
+Kakade, S. M. 195
+Kalisch, M. 263
+Karlin, S. 60
+Kastelyn, P. W. 261
+Keshavan, R. H. 178, 180, 182, 183,
+195
+Kim, S. 32, 35, 81, 263
+Klamroth, K. 131
+Knight, K. 87, 311
+Koh, K. 32, 35, 81, 263
+Kohane, I. 263
+Koller, D. 261
+Koltchinskii, V. 87, 180
+Krahmer, F. 285
+Lafferty, J. 70, 87, 90, 263
+Lanckriet, G. R. G. 205, 206, 210,
+232
+Lang, K. 32
+Lange, K. 52, 124, 131, 232, 233
+Lanning, S. 170
+Laurent, M. 169
+Lauritzen, S. L. 261
+Le Cun, Y. 37
+Le, Q. 211, 233
+Lee, H. 116
+Lee, J. 35, 116, 151, 154, 161, 260,
+263, 312
+Lee, M. 190
+Lee, S. 116
+Lei, J. 210, 213, 232
+Leng, C. 225, 233
+Levina, E. 262, 263
+Levy, R. 42
+Levy, S. 23
+Lewis, D. 42
+Li, L. 192
+Li, R. 84, 87
+Li, X. 195
+Liang, Y. 312
+Lim, M. 67
+Lin, B. 127, 131, 132
+Lin, Y. 20, 21, 59, 63, 72–74, 86, 87,
+262
+Lindenstrauss, J. 285
+Liu, H. 70, 87, 90
+Loan, C. V. 127, 169
+Lockhart, R. 151, 156, 157, 161
+Loftus, J. 161
+Lossos, I. 42
+Lounici, K. 86, 180
+Lu, A. 212, 213, 232
+Lu, L. 42
+Lu, Z. 186
+Lustig, M. 285
+Lykou, A. 233
+Ma, C. 42
+Ma, S. 86, 261, 266
+Ma, Y. 195
+340 AUTHOR INDEX
+Ma, Z. 195, 213, 232
+Mahoney, M. W. 285
+Mairal, J. 87
+Mangasarian, O. 50
+Mannor, S. 26
+Manzagol, P.-A. 212
+Marron, J. 190
+Marti, G. 42
+Mazumder, R. 86, 87, 170, 175, 176,
+182, 195, 249, 251, 261, 262, 266
+McCullagh, P. 30, 52
+Meier, L. 60, 86, 87
+Meinshausen, N. 12, 142, 250, 263,
+311
+M´ezard, M. 261
+Monga, R. 211, 233
+Montanari, A. 158, 159, 162, 178,
+180, 182, 183, 195, 261, 263
+Monteiro, R. 186
+Moore, T. 42
+Murphy, K. 262
+Nadler, B. 213, 232
+Narasimhan, B. 219, 233
+Negahban, S. 86, 176, 179, 186, 195,
+311, 312
+Nelder, J. 30, 52
+Nemirovski, A. 176, 285
+Nesterov, Y. 105, 107, 108, 131
+Netrapalli, P. 195
+Nevins, J. R. 262
+Ng, A. 116, 211, 233
+Niculescu-Mizil, A. 262
+Obozinski, G. 66, 67, 86, 87, 312
+Oh, S. 178, 180, 182, 183, 195
+Olafsdottir, H. 226
+Oldenburg, D. W. 23
+Olsen, S. 193
+Olshausen, B. 211, 233
+Owen, A. B. 27
+Parikh, N. 121
+Park, T. 139, 161
+Parkhomenko, E. 233
+Parrilo, P. A. 195, 260, 261, 312
+Paul, D. 213, 232
+Pauly, J. 285
+Pearl, J. 261
+Pelckmans, K. 233
+Peleato, B. 121
+Pfeuffer, F. 131
+Phardoon, D. 233
+Pilanci, M. 285
+Plan, Y. 195
+Pontil, M. 86
+Porteous, B. T. 262
+Puig, A. 87
+Pwellm, J. 42
+Rabbani, T. 131
+Ranzato, M. 211, 233
+Raskutti, G. 75, 87, 252, 262, 311,
+312
+Ravikumar, P. 70, 86, 87, 90, 252,
+262, 263, 311, 312
+Recht, B. 178, 195
+Rennie, J. 181, 182, 195
+Renyi, A. 177
+Richardson, T. S. 263
+Rigollet, P. 232
+Rish, I. 23
+Ritov, Y. 20, 158, 159, 162, 311
+Rocha, G. 86
+Rockafellar, R. T. 131
+Rohde, A. 186, 195
+Rohe, K. 210
+Romberg, J. K. 285
+Rosenwal, A. 42
+Rosset, S. 19, 47, 49, 87, 121
+Rothman, A. J. 262
+Ruan, C. 312
+Rubin, D. 146, 161
+Rudelson, M. 311
+Ruderman, D. 285
+Ruzinsky, S. 23
+Sabet, H. 42
+Sanghavi, S. 195, 261, 312
+Santhanam, N. P. 263
+Santos, J. 285
+341
+Santosa, F. 23
+Saunders, M. 23, 35, 87, 116, 285
+Scheff´e, H. 160
+Scheuer, T. 23
+Schmidt, M. 262
+Seheuly, A. H. 262
+Shalev-Shwartz, S. 47
+Shawe-Taylor, J. 233
+She, Y. 27, 186
+Shen, H. 190
+Sherlock, G. 42
+Simon, N. 37, 43, 50, 58, 63, 86, 87,
+128, 130, 251, 262
+Simoncelli, E. P. 285
+Sinclair, A. 261
+Singer, Y. 40, 47
+Slonim, D. 263
+Sobel, E. 52
+Speed, T. 233
+Spiegelhalter, D. J. 261
+Srebro, N. 47, 181, 182, 195
+Stark, P. 23, 285
+Staudt, L. 42
+Stein, C. 25
+Stone, C. J. 87
+Sun, D. 151, 154, 161
+Sun, Y. 35, 116, 151, 154, 161, 312
+Suykens, J. 233
+Symes, W. W. 23
+Szarek, S. J. 285
+Tamayo, P. 263
+Tandon, R. 195
+Tanner, J. 296
+Tao, T. 278, 285, 311
+Taylor, J. 18, 68, 79–81, 87, 128, 130,
+151, 154, 156, 157, 161, 312
+Teboulle, M. 108
+Thodberg, H. H. 226
+Thomas, G. S. 9
+Tian, Q. 192
+Tibshirani, R. 7, 18, 23, 24, 34, 36,
+37, 42, 43, 45–48, 50, 52, 58, 63,
+68, 69, 71, 77, 79, 83, 86, 87, 113,
+128, 130, 142, 151, 156, 157, 161,
+163, 170, 175, 176, 182, 184, 195,
+206, 208, 217–219, 221, 222, 225,
+227, 228, 230, 232, 233, 239,
+248–250, 255, 257, 260–263
+Tibshirani2, R. 18, 19, 25, 79–83, 87,
+128, 130, 151, 156, 157, 161
+Tran, T. 42
+Trendafilov, N. T. 204, 232, 233
+Tritchler, D. 233
+Tropp, J. A. 311
+Tseng, P. 62, 110, 111
+Tsybakov, A. 86, 180, 186, 195, 311
+Uddin, M. 204, 232
+van de Geer, S. 20, 60, 86, 87, 158,
+159, 162, 311
+van Houwelingen, H. C. 43
+Vandenberghe, L. 131, 206, 248, 262
+van’t Veer, L. J. 43
+Vapnik, V. 52
+Vempala, S. 285
+Vers´elewel de Witt Hamer, P. 233
+Vershynin, R. 285
+Vert, J.-P. 66, 67, 87, 233
+Viallon, V. 131
+Vincent, P. 212
+Vu, V. Q. 210, 213, 232
+Waaijenborg, S. 233
+Wager, S. 161, 163
+Wahba, G. 87
+Wainwright, M. J. 75, 86, 87, 176,
+179, 186, 195, 213, 232, 252,
+261–263, 285, 311, 312
+Wakin, M. 4, 285
+Wakin, M. B. 285
+Wang, H. 263
+Wang, J. 127, 131, 132
+Wang, L. 47
+Wang, W. 312
+Ward, R. 285
+Wasserman, L. 70, 87, 90, 263
+Wedderburn, R. 52
+Wegkamp, M. 186, 311
+Weisenburger, D. 42
+342 AUTHOR INDEX
+Welsh, D. J. A. 261
+Wermuth, N. 261
+Wessels, L. F. A. 43
+West, M. 262
+Whittaker, J. 233, 261
+Wiesel, A. 87
+Willsky, A. S. 195, 260, 261, 285, 312
+Wilson, W. 42
+Winkler, G. 262
+Witten, D. 195, 222, 225, 226, 228,
+230, 232, 233, 239, 251, 262
+Wonka, P. 127, 131, 132
+Wright, J. 195
+Wu, S. 248, 262
+Wu, T. 52, 124
+Xing, E. P. 312
+Xu, H. 26, 195
+Xue, L. 261, 266
+Yang, I. 233
+Yao, G. 262
+Ye, J. 127, 131, 132
+Yi, X. 195
+Yu, B. 75, 86, 87, 252, 262, 263, 311,
+312
+Yu, X. 42
+Yuan, M. 20, 21, 59, 63, 86, 87, 186,
+262
+Yuan, X. T. 195, 213, 232
+Yudin, D. B. 176
+Zhang, C.-H. 84, 86, 158, 162
+Zhang, H. H. 72–74, 87
+Zhang, K. 160, 162
+Zhang, S. 158, 162
+Zhang, T. 86, 195, 213, 232
+Zhang, Y. 311
+Zhao, L. 160, 162
+Zhao, P. 86, 263, 311
+Zhao, Y. 262
+Zhou, S. 263, 311
+Zhu, J. 263
+Zou, H. 18, 20, 21, 47, 56, 86, 87,
+206, 208, 232, 261, 266
+Zwinderman, A. 233
