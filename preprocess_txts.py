@@ -2,7 +2,47 @@
 
 import numpy as np
 import re, string
+import json
 
+
+def clean_index(dirty_index):
+	""" A very specific function for cleaning an index string:
+	* delete "-" if it appears between two numbers (like in "56-63") (as part of other stuff)
+	* deletes page number(s): numnbers that appear between a "," and a "\n" (new line)
+	* deletes ","s
+	* replaces ` with small L (because that got wrong when copying)
+	* delete the word INDEX
+	* replace ", see OTHER_WORD" by "\n OTHER_WORD"
+	"""
+	cleaned = dirty_index
+	# delete "-" and its serounding digits (page numbers), as in "98-103" - NOPE. this is included in deleting stuff between , and \n
+	#pattern = r'\d+\-\d+'
+	#cleaned = re.sub(pattern, '' , cleaned)
+	# delete the word INDEX
+	cleaned = re.sub('INDEX', '', cleaned)
+	# replace "see" by \n, as in "OvA, see one versus all":
+	cleaned = re.sub('see', '\n', cleaned)
+	# delete digits and - and more ","s (everything) that appear between "," and "\n" (the rest of page numbers)
+	pattern = r'(?<=\,).*(?=\n)'
+	cleaned = re.sub(pattern, '' , cleaned)
+	# replace ` by small L (as in `2 should be l2)
+	cleaned = re.sub(r'\`', 'l', cleaned)
+	# deletes gidits of digits separated by "-" that appear between begin-of-line (or some kind of space) and end-of-line (or some kind of space) 
+	# this is taking care of whatever skipped the previous cleaning (almost):
+	cleaned = re.sub(r'(?<=(\n|\s))(\d+|\d+\-\d+)(?=(\n|\s))', '', cleaned)
+
+	return cleaned
+
+def get_index_set(index):
+	""" obtains a set of word that appear in the given index, first using clean_index.
+	deletes extra spaces of index-members that are digits only"""
+	cleaned_index = clean_index(index)
+	# splitting the index by , and/or by \n (end of line)
+	splited_list = re.split(r'\,|\n', cleaned_index, 0, 0)
+	# removing extra leading spaces:
+	#splited_list = [re.sub(r'^[ \t]+', '', token) for token in splited_list if token != '']
+	# converting to a set to be returned
+	return set(splited_list)
 
 def remove_punct(text):
 	'''
@@ -21,7 +61,9 @@ def remove_punct(text):
 
 def text2list(text):
 	""" Given a text, returns a list of all the words in the text, sequentially, with repetition."""
-	clean_txt = remove_punct(text)
+	clean_txt = text
+	clean_txt = remove_weird_hex(clean_txt)
+	clean_txt = remove_punct(clean_txt)
 	w_list = clean_txt.split()
 	return w_list
 
@@ -82,7 +124,24 @@ def remove_formulas(text):
 
 	return cleaned
 
+
+def extract_json_abstract(jobj):
+	""" extracting title+summary = abstract for each item in the json file,
+	Returning this as a list of strings."""
+	abstr_lst = [element["title"] + '. ' + element["summary"] for element in jobj]
+	return abstr_lst
+
+
+def remove_weird_hex(text):
+	""" Removes all appearances of hexadecimal stuff, such as '<x013>' and '<x0e>' """
+	# text = text.encode('ascii', errors='ignore').decode('utf8')  # didn't help!!
+	dict_hex_delete = {"\x01": "", "\x02": "", "\x03": "", "\x04": "", "\x05": "", "\x06": "", "\x07": "", "\x08": "",  "\x12": "", "\x13": "", "\x14": "", "\x15": "", "\x16": "", "\x17": "",  "\x18": "", "\x19": "", "\x1a": "",  "\x1b": "", "\x1c": "", "\x1d": "", "\x1e": "", "\x1f": "",  "\x0b": "",  "\x0c": "", "\x0d": "", "\x0e": "", "\x0f": ""}
+	text = text.translate(str.maketrans(dict_hex_delete))
+	return text
+
+
 if __name__ == '__main__':
-	text = "This is Alice who visited Wonderland, how is she connected to Bob?"
-	print(remove_punct(text))
-	print(text2list(text))
+
+
+	book_txt = remove_weird_hex(book_txt)
+	print(book_txt)
