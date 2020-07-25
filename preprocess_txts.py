@@ -135,7 +135,7 @@ def extract_json_abstract(jobj):
 def remove_weird_hex(text):
 	""" Removes all appearances of hexadecimal stuff, such as '<x013>' and '<x0e>' """
 	# text = text.encode('ascii', errors='ignore').decode('utf8')  # didn't help!!
-	dict_hex_delete = {"\x01": "", "\x02": "", "\x03": "", "\x04": "", "\x05": "", "\x06": "", "\x07": "", "\x08": "",  "\x12": "", "\x13": "", "\x14": "", "\x15": "", "\x16": "", "\x17": "",  "\x18": "", "\x19": "", "\x1a": "",  "\x1b": "", "\x1c": "", "\x1d": "", "\x1e": "", "\x1f": "",  "\x0b": "",  "\x0c": "", "\x0d": "", "\x0e": "", "\x0f": ""}
+	dict_hex_delete = {"\x01": "", "\x02": "", "\x03": "", "\x04": "", "\x05": "", "\x06": "", "\x07": "", "\x08": "", "\x09" : "", "\x10" : "", "\x11" : "", "\x12": "", "\x13": "", "\x14": "", "\x15": "", "\x16": "", "\x17": "",  "\x18": "", "\x19": "", "\x1a": "",  "\x1b": "", "\x1c": "", "\x1d": "", "\x1e": "", "\x1f": "",  "\x0b": "",  "\x0c": "", "\x0d": "", "\x0e": "", "\x0f": ""}
 	text = text.translate(str.maketrans(dict_hex_delete))
 	return text
 
