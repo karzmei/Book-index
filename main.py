@@ -34,7 +34,8 @@ if __name__ == '__main__':
 	index_set = preproc.get_index_set(index)
 
 	# analyze and choose threshold
-	precision, recall, thresholds = analysis.precision_recall(index_set, candidates, book_txt)
+	analysis.precision_recall(index_set, candidates, book_txt)
+	#precision, recall, thresholds = analysis.precision_recall(index_set, candidates, book_txt)
 
 
 
