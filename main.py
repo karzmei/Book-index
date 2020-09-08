@@ -1,6 +1,7 @@
 # main: generating book index
 import numpy as np
 import json
+import matplotlib.pyplot as plt
 
 # internal import:
 import preprocess_txts as preproc
@@ -34,8 +35,11 @@ if __name__ == '__main__':
 	index_set = preproc.get_index_set(index)
 
 	# analyze and choose threshold
-	analysis.precision_recall(index_set, candidates, book_txt)
-	#precision, recall, thresholds = analysis.precision_recall(index_set, candidates, book_txt)
+	precision, recall, thresholds = analysis.precision_recall(index_set, candidates, book_txt)
 
-
+	# plotting precision-recall:
+	print("shapes: ", len(precision), len(recall), len(thresholds))
+	#print(precision[10], recall[10], thresholds[10])
+	plt.plot(precision, recall)
+	plt.show()
 
